@@ -6,6 +6,7 @@ mod ch4_ownership;
 mod ch5_struct;
 mod ch6_enum;
 mod ch8_collections;
+mod ch9_errors;
 
 fn main() {
     
@@ -42,5 +43,11 @@ fn main() {
     ch8_collections::vector_syntax();
     ch8_collections::string_syntax();
     ch8_collections::hashmap_syntax();
+
+    ch9_errors::panic_syntax();
+    ch9_errors::match_on_error();
+    ch9_errors::unwrap_expect();
+    ch9_errors::short_match();
+    ch9_errors::err_propagation();
 
 }
