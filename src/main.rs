@@ -7,6 +7,7 @@ mod ch5_struct;
 mod ch6_enum;
 mod ch8_collections;
 mod ch9_errors;
+mod ch10_generics;
 
 fn main() {
     
@@ -49,5 +50,9 @@ fn main() {
     ch9_errors::unwrap_expect();
     ch9_errors::short_match();
     ch9_errors::err_propagation();
+
+    ch10_generics::generic_type();
+    ch10_generics::trait_for_generic();
+    ch10_generics::lifetime();
 
 }
