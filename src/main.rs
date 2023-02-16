@@ -9,6 +9,8 @@ mod ch8_collections;
 mod ch9_errors;
 mod ch10_generics;
 
+mod gotchas;
+
 fn main() {
     
     ch1_basics::variable();
